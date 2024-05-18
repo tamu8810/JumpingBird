@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="GAME.cpp">
+      <Filter>01.Game</Filter>
+    </ClCompile>
+    <ClCompile Include="WINDOW.cpp">
+      <Filter>02.System</Filter>
+    </ClCompile>
+    <ClCompile Include="KEYBOARD.cpp">
+      <Filter>02.System</Filter>
+    </ClCompile>
+    <ClCompile Include="CLOCK.cpp">
+      <Filter>02.System</Filter>
+    </ClCompile>
+    <ClCompile Include="CONTAINER.cpp">
+      <Filter>03.Container</Filter>
+    </ClCompile>
+    <ClCompile Include="VECTOR2D.cpp">
+      <Filter>06.Component</Filter>
+    </ClCompile>
+    <ClCompile Include="IMAGE.cpp">
+      <Filter>06.Component</Filter>
+    </ClCompile>
+    <ClCompile Include="SPLIT_IMAGE.cpp">
+      <Filter>06.Component</Filter>
+    </ClCompile>
+    <ClCompile Include="MULTI_IMAGE.cpp">
+      <Filter>06.Component</Filter>
+    </ClCompile>
+    <ClCompile Include="BACKGROUND.cpp">
+      <Filter>05.Character</Filter>
+    </ClCompile>
+    <ClCompile Include="CHARA_MGR.cpp">
+      <Filter>05.Character\01.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SCENE.cpp">
+      <Filter>04.Scene\02.Base</Filter>
+    </ClCompile>
+    <ClCompile Include="SCENE_MGR.cpp">
+      <Filter>04.Scene\01.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TITLE.cpp">
+      <Filter>04.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="STAGE.cpp">
+      <Filter>04.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GROUND.cpp">
+      <Filter>05.Character</Filter>
+    </ClCompile>
+    <ClCompile Include="BOX_COLIDER2D.cpp">
+      <Filter>06.Component</Filter>
+    </ClCompile>
+    <ClCompile Include="BIRD.cpp">
+      <Filter>05.Character</Filter>
+    </ClCompile>
+    <ClCompile Include="PIPE.cpp">
+      <Filter>05.Character</Filter>
+    </ClCompile>
+    <ClCompile Include="PIPE_MGR.cpp">
+      <Filter>05.Character</Filter>
+    </ClCompile>
+    <ClCompile Include="TEXT_IMAGE.cpp">
+      <Filter>06.Component</Filter>
+    </ClCompile>
+    <ClCompile Include="TRANS_FADE.cpp">
+      <Filter>04.Scene\03.Transition</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME_OVER.cpp">
+      <Filter>04.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SCORE.cpp">
+      <Filter>05.Character</Filter>
+    </ClCompile>
+    <ClCompile Include="LEVEL_UP_EFFECT.cpp">
+      <Filter>05.Character</Filter>
+    </ClCompile>
+    <ClCompile Include="SOUND.cpp">
+      <Filter>05.Character</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="02.System">
+      <UniqueIdentifier>{b23eefa1-e529-482a-9011-54579890c857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Container">
+      <UniqueIdentifier>{3f2dd73b-36c9-4324-9cba-c49119166b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene">
+      <UniqueIdentifier>{46d64f1a-8386-4377-9155-93005a9aaad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Character">
+      <UniqueIdentifier>{343ef053-6108-4d97-a44a-1dff7a1bbae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Component">
+      <UniqueIdentifier>{388ddb8e-fbf0-4e4e-b485-d8fb9cdf5b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Utility">
+      <UniqueIdentifier>{1fa004a9-e993-45a3-bd39-eb6b79b5d065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Game">
+      <UniqueIdentifier>{bb43eea6-c2cb-447f-8790-40ff814fa6f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\01.Manager">
+      <UniqueIdentifier>{864a97bd-e0f9-4a20-9e21-7dd0af0a5ad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Character\01.Manager">
+      <UniqueIdentifier>{e3134643-cbbb-45ff-b500-dd00a5b2f5af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\02.Base">
+      <UniqueIdentifier>{46ac81cd-6008-475f-9281-c90878320989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\03.Transition">
+      <UniqueIdentifier>{69e96b6c-794c-4e63-bc5c-66685c01f55a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GAME.hpp">
+      <Filter>01.Game</Filter>
+    </ClInclude>
+    <ClInclude Include="WINDOW.hpp">
+      <Filter>02.System</Filter>
+    </ClInclude>
+    <ClInclude Include="SAFE_DELETE.hpp">
+      <Filter>07.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="RESULT.hpp">
+      <Filter>07.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="KEYBOARD.hpp">
+      <Filter>02.System</Filter>
+    </ClInclude>
+    <ClInclude Include="CLOCK.hpp">
+      <Filter>02.System</Filter>
+    </ClInclude>
+    <ClInclude Include="MATH.hpp">
+      <Filter>07.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CONTAINER.hpp">
+      <Filter>03.Container</Filter>
+    </ClInclude>
+    <ClInclude Include="VECTOR2D.hpp">
+      <Filter>06.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="IMAGE.hpp">
+      <Filter>06.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SPLIT_IMAGE.hpp">
+      <Filter>06.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="MULTI_IMAGE.hpp">
+      <Filter>06.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="BACKGROUND.hpp">
+      <Filter>05.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="CHARA_MGR.hpp">
+      <Filter>05.Character\01.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SCENE.hpp">
+      <Filter>04.Scene\02.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="SCENE_MGR.hpp">
+      <Filter>04.Scene\01.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TITLE.hpp">
+      <Filter>04.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="STAGE.hpp">
+      <Filter>04.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GROUND.hpp">
+      <Filter>05.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="BOX_COLIDER2D.hpp">
+      <Filter>06.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="BIRD.hpp">
+      <Filter>05.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="PIPE.hpp">
+      <Filter>05.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="PIPE_MGR.hpp">
+      <Filter>05.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="DEBUG_MODE.hpp">
+      <Filter>07.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="RANDOM.hpp">
+      <Filter>07.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="TEXT_IMAGE.hpp">
+      <Filter>06.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="TRANS_FADE.hpp">
+      <Filter>04.Scene\03.Transition</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_OVER.hpp">
+      <Filter>04.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SCORE.hpp">
+      <Filter>05.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="LEVEL_UP_EFFECT.hpp">
+      <Filter>05.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="SINGLETON.hpp">
+      <Filter>07.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="SOUND.hpp">
+      <Filter>05.Character</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
